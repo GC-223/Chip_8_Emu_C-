@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9635326D2AC0B01A00C844AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9635326C2AC0B01A00C844AE /* main.cpp */; };
+		963532752AC0C1D000C844AE /* The CPU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 963532732AC0C1D000C844AE /* The CPU.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		963532692AC0B01A00C844AE /* Chip_8_Emu_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chip_8_Emu_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9635326C2AC0B01A00C844AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		963532732AC0C1D000C844AE /* The CPU.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "The CPU.cpp"; sourceTree = "<group>"; };
+		963532742AC0C1D000C844AE /* The CPU.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "The CPU.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				9635326C2AC0B01A00C844AE /* main.cpp */,
+				963532732AC0C1D000C844AE /* The CPU.cpp */,
+				963532742AC0C1D000C844AE /* The CPU.hpp */,
 			);
 			path = "Chip_8_Emu_C++";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9635326D2AC0B01A00C844AE /* main.cpp in Sources */,
+				963532752AC0C1D000C844AE /* The CPU.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
